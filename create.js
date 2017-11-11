@@ -12,9 +12,10 @@ var fragment = fs.readFileSync('fragment.fodt', 'utf-8');
 var ryba     = fs.readFileSync(    'ryba.fodt', 'utf-8');
 
 
-var femaleNames = require('./femalenames.js');
-var   maleNames = require('./malenames.js');
+//var femaleNames = require('./femalenames.js');
+//var   maleNames = require('./malenames.js');
 
+var ruNames = require('ru-names');
 
 
 
@@ -54,10 +55,14 @@ function writeResult(participants){
 			gender = 1;
 		} else if(/вна$/.test(names[2])){
 			gender = 0;
-		} else if(femaleNames.indexOf(names[1]) !== -1){
+		} else if(ruNames[names[1].toLowerCase()] === 'f'){
 			gender = 0;
-		} else if(  maleNames.indexOf(names[1]) !== -1){
+		} else if(ruNames[names[1].toLowerCase()] === 'm'){
 			gender = 1;
+		//} else if(femaleNames.indexOf(names[1]) !== -1){
+		//	gender = 0;
+		//} else if(  maleNames.indexOf(names[1]) !== -1){
+		//	gender = 1;
 		} else {
 			console.log('Не удалось определить пол: ');
 			console.log(name);
