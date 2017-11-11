@@ -1,0 +1,24 @@
+{
+  "name": "tuf-cert-2017-11",
+  "version": "0.0.1",
+  "description": "",
+  "main": "create.js",
+  "dependencies": {},
+  "devDependencies": {
+    "csv-array": "0.0.22",
+    "ru-names": "^1.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickkolok/tuf-certs-2017.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nickkolok/tuf-certs-2017/issues"
+  },
+  "homepage": "https://github.com/nickkolok/tuf-certs-2017#readme"
+}
