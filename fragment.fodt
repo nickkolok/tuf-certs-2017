@@ -1,0 +1,15 @@
+   <text:p text:style-name="P47">подтверждает, что</text:p>
+   <text:p text:style-name="P19"/>
+   <text:p text:style-name="P46"><text:span text:style-name="T1"><template:FirstName/></text:span></text:p>
+   <text:p text:style-name="P46"><text:span text:style-name="T1"><template:SecondName/></text:span></text:p>
+   <text:p text:style-name="P2">
+    учени<text:span text:style-name="T4"><template:Gender/></text:span>
+    <text:span text:style-name="T7"><template:Class/></text:span> класса
+   </text:p>
+   <text:p text:style-name="P34"><template:School/></text:p>
+   <text:p text:style-name="P1">принял<text:span text:style-name="T4"><template:GenderPostfix/></text:span> участие в </text:p>
+   <text:p text:style-name="P1">областной открытой олимпиаде школьников «Турнир Юных Физиков» </text:p>
+   <text:p text:style-name="P1">(<text:span text:style-name="T4">Первая Лига</text:span>)</text:p>
+   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="P5"/>
+

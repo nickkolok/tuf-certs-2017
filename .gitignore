@@ -1,0 +1,5 @@
+node_modules
+*~
+result*.fodt
+.~lock.*
+participants.csv
